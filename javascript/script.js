@@ -24,11 +24,11 @@ nextBtn.addEventListener('click', () => {
     mainImg.src = subImg[currentIndex].src;
 });
 
-prevBtn.addEventListener("click", () => {
+prevBtn.addEventListener('click', () => {
     currentIndex--;
     if (currentIndex < 0) {
     currentIndex = subImg.length - 1;
     }
     mainImg.classList.remove('loaded');
-    mainImg.src = subImg[currentImgIndex].src;
+    mainImg.src = subImg[currentIndex].src;
 });
